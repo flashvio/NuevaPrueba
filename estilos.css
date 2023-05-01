@@ -40,7 +40,7 @@ button:hover{
 .color-romano {color: rgb(126, 69, 180);}
 
 header{
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(215, 215, 215);
 }
 
 header .logo{
@@ -208,4 +208,19 @@ footer .container{
     display: flex;
     justify-content: center;
     align-items: self-end;
+}
+@media (min-width: 720px){
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 30px;
+
+    }
+
+
 }
