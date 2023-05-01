@@ -210,6 +210,10 @@ footer .container{
     align-items: self-end;
 }
 @media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    
     header .container {
         flex-direction: row;
         justify-content: space-between;
